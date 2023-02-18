@@ -25,7 +25,7 @@ body {
   min-height: 500px;
   border-radius: 20px;
   background-color: #13243C;
-  background-image: url("https://www.fora-poligrafia.pl/img/nftCard/public/images/background.png");
+  background-image: url("../../public/images/background.png");
   background-size: contain;
   background-repeat: no-repeat; }
   .nftElement--description {
@@ -67,12 +67,12 @@ body {
       color: #04FCFA;
       margin-left: 5px; }
       .nftElement--information--price .logo {
-        background-image: url("/public/images/diamonds.png"); }
+        background-image: url("../../public/images/diamonds.png"); }
     .nftElement--information--active {
       color: #9293B9;
       margin-right: 5px; }
       .nftElement--information--active .logo {
-        background-image: url("/public/images/clock.png"); }
+        background-image: url("../../public/images/clock.png"); }
   .nftElement--author {
     width: 90%;
     line-height: 40px;
@@ -83,7 +83,7 @@ body {
       position: relative;
       width: 40px;
       border-radius: 50%;
-      background-image: url("/public/images/Nowe zdjęcie 2.PNG");
+      background-image: url("../../public/images/Nowe zdjęcie 2.PNG");
       background-repeat: no-repeat;
       background-size: cover;
       margin-right: 20px; }

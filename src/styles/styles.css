@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif; }
+
+body {
+  background-color: #0C1829;
+  color: #FFFFFF; }
+
+.home-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.nftElement {
+  position: relative;
+  width: 350px;
+  min-height: 500px;
+  border-radius: 20px;
+  background-color: #13243C;
+  background-image: url("/public/images/background.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+  .nftElement--description {
+    width: 80%;
+    margin: 70% auto 0; }
+    .nftElement--description h1 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px; }
+    .nftElement--description p {
+      color: #9293B9;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: -0.18px;
+      line-height: 160%;
+      margin-bottom: 10px; }
+  .nftElement--information {
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #2B3953;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 100; }
+    .nftElement--information * {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      line-height: 100%; }
+    .nftElement--information * > .logo {
+      width: 20px;
+      height: 20px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-right: 10px; }
+    .nftElement--information--price {
+      color: #04FCFA;
+      margin-left: 5px; }
+      .nftElement--information--price .logo {
+        background-image: url("/public/images/diamonds.png"); }
+    .nftElement--information--active {
+      color: #9293B9;
+      margin-right: 5px; }
+      .nftElement--information--active .logo {
+        background-image: url("/public/images/clock.png"); }
+  .nftElement--author {
+    width: 90%;
+    line-height: 40px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: start; }
+    .nftElement--author .image {
+      position: relative;
+      width: 40px;
+      border-radius: 50%;
+      background-image: url("/public/images/Nowe zdjęcie 2.PNG");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 20px; }
+    .nftElement--author p {
+      color: #9293B9;
+      font-size: 14px; }
+      .nftElement--author p span {
+        margin-left: 5px;
+        color: #FFFFFF; }
+
+/*# sourceMappingURL=styles.css.map */

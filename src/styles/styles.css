@@ -13,34 +13,41 @@ body {
   color: #FFFFFF; }
 
 .home-page {
+  position: relative;
   width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  height: 100vh; }
 
 .nftElement {
-  position: relative;
+  display: inline-block;
   width: 350px;
-  min-height: 500px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
   border-radius: 20px;
   background-color: #13243C;
   background-image: url("../../public/images/background.png");
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  cursor: pointer; }
+  .nftElement:hover {
+    box-shadow: 0 0 40px 1px #04FCFA; }
   .nftElement--description {
     width: 80%;
-    margin: 70% auto 0; }
-    .nftElement--description h1 {
+    margin: 0 auto;
+    padding: 250px 0 0; }
+    .nftElement--description .nftElement--description--h1 {
+      max-height: 108px;
       font-size: 24px;
       font-weight: 600;
-      margin-bottom: 10px; }
+      overflow: scroll; }
     .nftElement--description p {
       color: #9293B9;
       font-size: 18px;
       font-weight: 500;
       letter-spacing: -0.18px;
       line-height: 160%;
+      margin-top: 10px;
       margin-bottom: 10px; }
   .nftElement--information {
     position: relative;
@@ -77,7 +84,7 @@ body {
     width: 90%;
     line-height: 40px;
     display: flex;
-    margin: 0 auto;
+    margin: 30px auto;
     justify-content: start; }
     .nftElement--author .image {
       position: relative;

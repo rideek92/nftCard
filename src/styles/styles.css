@@ -25,7 +25,7 @@ body {
   min-height: 500px;
   border-radius: 20px;
   background-color: #13243C;
-  background-image: url("https://github.com/rideek92/nftCard/blob/main/public/images/background.png?raw=true");
+  background-image: url("./public/images/background.png");
   background-size: contain;
   background-repeat: no-repeat; }
   .nftElement--description {
